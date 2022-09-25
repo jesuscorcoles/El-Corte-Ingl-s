@@ -43,13 +43,20 @@ header span {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height: 30px;
+  height: 20px;
 }
 
 .cajamenu {
   width: 30px;
   height: 30px;
   margin-left: 25px;
+}
+
+.main {
+  background-color: rgb(243, 243, 243);
+  flex-wrap: wrap;
+  width: 100%;
+  height: 3690px;
 }
 
 .cosasmenu {
@@ -61,14 +68,6 @@ header span {
 
 .cosasmenu--mar {
   margin-right: 20px;
-}
-
-.main {
-  background-color: aquamarine;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 2000px;
 }
 
 .ini {
@@ -88,16 +87,20 @@ header span {
 .cajasverdes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height: 30px;
+  margin-top: 8px;
+  margin-left: 9px;
 }
 
 .butt {
-  background-color: green;
+  background-color: #65B405;
+  margin: 8px;
+  margin-left: 15px;
 }
 
-.cajasv {
+.cajasver {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -108,8 +111,82 @@ header span {
   text-decoration: none;
 }
 
-.viae {
-  background-color: bisque;
-  width: 40px;
-  height: 20px;
+.travelboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.boxs {
+  display: block;
+  background-color: white;
+  width: 46%;
+  height: 265px;
+  margin-top: 20px;
+  position: block;
+}
+
+.photodesti {
+  width: 100%;
+}
+
+.desti-tx {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left;
+}
+
+.tx-small {
+  font-family: sans-serif;
+  font-size: 8px;
+  margin: 3px 10px 10px 10px;
+  color: gray;
+  text-align: left;
+}
+
+.desde {
+  font-family: sans-serif;
+  font-size: 7px;
+  margin: 40px 10px 0px 10px;
+}
+
+.price {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #65B405;
+  margin: 0px 0px 10px 10px;
+}
+
+.box-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tx-but-inf {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #65B405;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.but-size {
+  height: 30px;
+  margin: 35px 10px 10px 10px;
+}
+
+.finalbox {
+  display: block;
+}
+
+.boxwhite {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
